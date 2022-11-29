@@ -1,0 +1,15 @@
+name: scip
+
+channels:
+  - conda-forge
+
+dependencies:
+  - scip
+  - zimpl
+  - gcg
+  - papilo
+  - soplex
+  - pyomo
+  - pip
+  - pip:
+    - streamlit
